@@ -70,7 +70,8 @@ public class PanelPelota extends JPanel implements Runnable{
 			player1FlagUp = true;
 			break;
 		case KeyEvent.VK_S:
-			player1FlagDown
+			player1FlagDown = false;
+			break;
 		
 		}
 	}
